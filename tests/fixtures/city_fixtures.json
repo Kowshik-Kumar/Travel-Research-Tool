@@ -1,0 +1,73 @@
+{
+  "kyoto": {
+    "geocode": {
+      "city": "Kyoto",
+      "country": "Japan",
+      "lat": 35.0117,
+      "lon": 135.7683,
+      "timezone": "Asia/Tokyo"
+    },
+    "places": [
+      {"name": "Kinkaku-ji Temple", "category": "religion", "lat": 35.0394, "lon": 135.7292, "price_level": 1, "rating": 4.8, "est_cost_usd": 5.0, "source": "opentripmap"},
+      {"name": "Fushimi Inari Shrine", "category": "religion", "lat": 34.9671, "lon": 135.7727, "price_level": 1, "rating": 4.9, "est_cost_usd": 0.0, "source": "opentripmap"},
+      {"name": "Arashiyama Bamboo Grove", "category": "natural", "lat": 35.0094, "lon": 135.6720, "price_level": 1, "rating": 4.6, "est_cost_usd": 0.0, "source": "foursquare"},
+      {"name": "Nijo Castle", "category": "architecture", "lat": 35.0142, "lon": 135.7484, "price_level": 2, "rating": 4.3, "est_cost_usd": 8.0, "source": "opentripmap"},
+      {"name": "Philosopher's Path", "category": "parks", "lat": 35.0270, "lon": 135.7923, "price_level": 1, "rating": 4.5, "est_cost_usd": 0.0, "source": "foursquare"},
+      {"name": "Gion District", "category": "cultural", "lat": 35.0037, "lon": 135.7759, "price_level": 2, "rating": 4.7, "est_cost_usd": 15.0, "source": "opentripmap"},
+      {"name": "Kyoto National Museum", "category": "museums", "lat": 34.9966, "lon": 135.7734, "price_level": 2, "rating": 4.2, "est_cost_usd": 12.0, "source": "foursquare"},
+      {"name": "Nishiki Market", "category": "marketplace", "lat": 35.0051, "lon": 135.7676, "price_level": 2, "rating": 4.4, "est_cost_usd": 20.0, "source": "foursquare"}
+    ],
+    "weather": [
+      {"date": "2027-01-01", "avg_temp_c": 18.0, "rain_prob": 0.1, "score": 0.75},
+      {"date": "2027-01-02", "avg_temp_c": 20.0, "rain_prob": 0.05, "score": 0.81},
+      {"date": "2027-01-03", "avg_temp_c": 15.0, "rain_prob": 0.2, "score": 0.65}
+    ],
+    "fx": {"JPY_to_USD": 0.0067}
+  },
+  "lisbon": {
+    "geocode": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "lat": 38.7167,
+      "lon": -9.1333,
+      "timezone": "Europe/Lisbon"
+    },
+    "places": [
+      {"name": "Belém Tower", "category": "architecture", "lat": 38.6916, "lon": -9.2160, "price_level": 2, "rating": 4.6, "est_cost_usd": 7.0, "source": "opentripmap"},
+      {"name": "Jerónimos Monastery", "category": "religion", "lat": 38.6978, "lon": -9.2067, "price_level": 2, "rating": 4.8, "est_cost_usd": 10.0, "source": "opentripmap"},
+      {"name": "Alfama District", "category": "cultural", "lat": 38.7139, "lon": -9.1334, "price_level": 2, "rating": 4.5, "est_cost_usd": 15.0, "source": "foursquare"},
+      {"name": "LX Factory", "category": "marketplace", "lat": 38.7028, "lon": -9.1756, "price_level": 2, "rating": 4.4, "est_cost_usd": 20.0, "source": "foursquare"},
+      {"name": "Sintra National Palace", "category": "architecture", "lat": 38.7977, "lon": -9.3878, "price_level": 3, "rating": 4.7, "est_cost_usd": 30.0, "source": "opentripmap"},
+      {"name": "Time Out Market", "category": "food", "lat": 38.7066, "lon": -9.1459, "price_level": 2, "rating": 4.5, "est_cost_usd": 25.0, "source": "foursquare"}
+    ],
+    "weather": [
+      {"date": "2027-01-01", "avg_temp_c": 22.0, "rain_prob": 0.15, "score": 0.76},
+      {"date": "2027-01-02", "avg_temp_c": 24.0, "rain_prob": 0.05, "score": 0.83},
+      {"date": "2027-01-03", "avg_temp_c": 19.0, "rain_prob": 0.3, "score": 0.67}
+    ],
+    "fx": {"EUR_to_USD": 1.09}
+  },
+  "cusco": {
+    "geocode": {
+      "city": "Cusco",
+      "country": "Peru",
+      "lat": -13.5317,
+      "lon": -71.9675,
+      "timezone": "America/Lima"
+    },
+    "places": [
+      {"name": "Machu Picchu", "category": "archaeology", "lat": -13.1631, "lon": -72.5450, "price_level": 3, "rating": 4.9, "est_cost_usd": 45.0, "source": "opentripmap"},
+      {"name": "Plaza de Armas", "category": "cultural", "lat": -13.5170, "lon": -71.9782, "price_level": 1, "rating": 4.6, "est_cost_usd": 0.0, "source": "foursquare"},
+      {"name": "Sacsayhuamán", "category": "archaeology", "lat": -13.5092, "lon": -71.9819, "price_level": 2, "rating": 4.7, "est_cost_usd": 15.0, "source": "opentripmap"},
+      {"name": "San Blas Neighbourhood", "category": "cultural", "lat": -13.5148, "lon": -71.9737, "price_level": 2, "rating": 4.3, "est_cost_usd": 10.0, "source": "foursquare"},
+      {"name": "Cusco Cathedral", "category": "religion", "lat": -13.5168, "lon": -71.9784, "price_level": 2, "rating": 4.5, "est_cost_usd": 8.0, "source": "opentripmap"},
+      {"name": "Mercado San Pedro", "category": "marketplace", "lat": -13.5207, "lon": -71.9827, "price_level": 1, "rating": 4.2, "est_cost_usd": 5.0, "source": "foursquare"}
+    ],
+    "weather": [
+      {"date": "2027-01-01", "avg_temp_c": 14.0, "rain_prob": 0.4, "score": 0.53},
+      {"date": "2027-01-02", "avg_temp_c": 16.0, "rain_prob": 0.3, "score": 0.62},
+      {"date": "2027-01-03", "avg_temp_c": 13.0, "rain_prob": 0.5, "score": 0.47}
+    ],
+    "fx": {"PEN_to_USD": 0.27}
+  }
+}

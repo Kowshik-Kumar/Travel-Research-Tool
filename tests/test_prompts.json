@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "prompt": "I want to plan a 5-day trip to Kyoto, Japan with a budget of $1500 USD. I love temples and gardens.",
+    "expected_city": "Kyoto",
+    "expected_country": "Japan",
+    "days": 5,
+    "budget": 1500,
+    "currency": "USD",
+    "interests": ["temples", "gardens"],
+    "ambiguous": false
+  },
+  {
+    "id": 2,
+    "prompt": "Plan me a 3-day trip to Lisbon with a budget of 800 EUR. Interested in history and food.",
+    "expected_city": "Lisbon",
+    "expected_country": "Portugal",
+    "days": 3,
+    "budget": 800,
+    "currency": "EUR",
+    "interests": ["history", "food"],
+    "ambiguous": false
+  },
+  {
+    "id": 3,
+    "prompt": "I'd like to visit Cusco, Peru for 7 days. Budget around $2000. Love archaeology and culture.",
+    "expected_city": "Cusco",
+    "expected_country": "Peru",
+    "days": 7,
+    "budget": 2000,
+    "currency": "USD",
+    "interests": ["archaeology", "culture"],
+    "ambiguous": false
+  },
+  {
+    "id": 4,
+    "prompt": "Trip to Paris for 4 days, budget 1200 USD, art and museums.",
+    "expected_city": "Paris",
+    "expected_country": "France",
+    "days": 4,
+    "budget": 1200,
+    "currency": "USD",
+    "interests": ["art", "museums"],
+    "ambiguous": false
+  },
+  {
+    "id": 5,
+    "prompt": "Plan a 10-day Japan trip to Tokyo, budget 300000 JPY. Shopping and tech.",
+    "expected_city": "Tokyo",
+    "expected_country": "Japan",
+    "days": 10,
+    "budget": 300000,
+    "currency": "JPY",
+    "interests": ["shopping", "tech"],
+    "ambiguous": false
+  },
+  {
+    "id": 6,
+    "prompt": "Weekend trip to Rome, 2 days, $500 budget. History buff.",
+    "expected_city": "Rome",
+    "expected_country": "Italy",
+    "days": 2,
+    "budget": 500,
+    "currency": "USD",
+    "interests": ["history"],
+    "ambiguous": false
+  },
+  {
+    "id": 7,
+    "prompt": "I want to go to Barcelona for 6 days. Budget 1500 EUR. Art and food lover.",
+    "expected_city": "Barcelona",
+    "expected_country": "Spain",
+    "days": 6,
+    "budget": 1500,
+    "currency": "EUR",
+    "interests": ["art", "food"],
+    "ambiguous": false
+  },
+  {
+    "id": 8,
+    "prompt": "Plan a trip to Bangkok, Thailand for 5 days. $800 budget. Street food and temples.",
+    "expected_city": "Bangkok",
+    "expected_country": "Thailand",
+    "days": 5,
+    "budget": 800,
+    "currency": "USD",
+    "interests": ["street food", "temples"],
+    "ambiguous": false
+  },
+  {
+    "id": 9,
+    "prompt": "Sydney trip for 4 days, 2000 AUD budget. Beaches and nature.",
+    "expected_city": "Sydney",
+    "expected_country": "Australia",
+    "days": 4,
+    "budget": 2000,
+    "currency": "AUD",
+    "interests": ["beaches", "nature"],
+    "ambiguous": false
+  },
+  {
+    "id": 10,
+    "prompt": "I want to visit Mexico City for 5 days with a budget of $1000. History and food.",
+    "expected_city": "Mexico City",
+    "expected_country": "Mexico",
+    "days": 5,
+    "budget": 1000,
+    "currency": "USD",
+    "interests": ["history", "food"],
+    "ambiguous": false
+  },
+  {
+    "id": 11,
+    "prompt": "I want to visit Paris for 5 days.",
+    "expected_city": "Paris",
+    "expected_country": null,
+    "days": 5,
+    "budget": null,
+    "currency": "USD",
+    "interests": [],
+    "ambiguous": true,
+    "ambiguity_reason": "Paris could be France or Texas, USA – country not specified"
+  },
+  {
+    "id": 12,
+    "prompt": "Trip to Springfield for 3 days, $500 budget.",
+    "expected_city": "Springfield",
+    "expected_country": null,
+    "days": 3,
+    "budget": 500,
+    "currency": "USD",
+    "interests": [],
+    "ambiguous": true,
+    "ambiguity_reason": "Multiple Springfields exist in different US states and countries"
+  },
+  {
+    "id": 13,
+    "prompt": "New York City for a week. Budget 3000 USD. Music and art.",
+    "expected_city": "New York",
+    "expected_country": "USA",
+    "days": 7,
+    "budget": 3000,
+    "currency": "USD",
+    "interests": ["music", "art"],
+    "ambiguous": false
+  },
+  {
+    "id": 14,
+    "prompt": "I'd like to explore Marrakech, Morocco for 4 days. 600 GBP budget. Markets and culture.",
+    "expected_city": "Marrakech",
+    "expected_country": "Morocco",
+    "days": 4,
+    "budget": 600,
+    "currency": "GBP",
+    "interests": ["markets", "culture"],
+    "ambiguous": false
+  },
+  {
+    "id": 15,
+    "prompt": "Plan a 3-day trip to Cape Town, South Africa. Budget 15000 ZAR. Nature and wine.",
+    "expected_city": "Cape Town",
+    "expected_country": "South Africa",
+    "days": 3,
+    "budget": 15000,
+    "currency": "ZAR",
+    "interests": ["nature", "wine"],
+    "ambiguous": false
+  }
+]
